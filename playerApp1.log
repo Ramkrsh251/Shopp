@@ -1,0 +1,30 @@
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 13:02:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:50 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 13:02:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:50 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 13:02:54 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:02:59 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:03:03 INFO  com.app.Main  - 5)Mark my order as received

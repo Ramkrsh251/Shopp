@@ -1,9 +1,24 @@
 package com.app.dao.impl;
 
+import java.sql.Array;
+import java.sql.Blob;
+import java.sql.CallableStatement;
+import java.sql.Clob;
 import java.sql.Connection;
+import java.sql.DatabaseMetaData;
+import java.sql.NClob;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLClientInfoException;
 import java.sql.SQLException;
+import java.sql.SQLWarning;
+import java.sql.SQLXML;
+import java.sql.Savepoint;
+import java.sql.Statement;
+import java.sql.Struct;
+import java.util.Map;
+import java.util.Properties;
+import java.util.concurrent.Executor;
 
 import org.apache.log4j.Logger;
 
@@ -17,7 +32,7 @@ public class SearchServiceDAOImpl implements SearchServiceDAO{
 	static int customerIdref=0;
 	static int cartPrice=0;
 	private static Logger log = Logger.getLogger(SearchServiceDAOImpl.class);
-	//Reg
+	// UserRegistration
 	public int  RegisterService(Customer customer)throws BusinessException{
 		int success=0;
 		try(Connection connection=MySqlDbConnection.getConnection()){
@@ -90,9 +105,7 @@ public class SearchServiceDAOImpl implements SearchServiceDAO{
 	//Add products
 	public int addProduct(int productId,int quantity) throws BusinessException{
 		try(Connection connection=MySqlDbConnection.getConnection()){
-			int productPrice=0;
-			
-			int flag=0;
+			int productPrice=0,flag=0;
 			String sql="Select p_price from product where p_id=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setInt(1,productId);
@@ -174,8 +187,118 @@ public class SearchServiceDAOImpl implements SearchServiceDAO{
 	
 	//Mark Received
 	public void markOrder() throws BusinessException{
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			int flag=0;
+			String sql="UPDATE shop.order SET order_status = 'Received' WHERE order_cust_id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, customerIdref);
+			flag=preparedStatement.executeUpdate();
+			if(flag!=0) {
+				log.info("Order marked as received");
+			}
+		}
+		catch(ClassNotFoundException | SQLException e){
+			log.error(e);
+			throw new BusinessException("Internal Error");
+		}
+	}
+	//Employee login
+	public int employeeLogin() throws BusinessException{
+		int flag=0;
+		String loginId="empLogin";
+		String password="passWord";
+		if(loginId.equals("empLogin")&&password.equals("passWord")){
+			flag=1;
+		}
+		return flag;
+	}
+	
+	//Insert into Products
+	public void intoProducts(String productName, int productPrice,String productCategory) throws BusinessException{
+		try(Connection connection=MySqlDbConnection.getConnection()){
+		String sql="insert into product (product_name,p_price,p_category) values (?,?,?)";
+		PreparedStatement preparedStatement=connection.prepareStatement(sql);
+		preparedStatement.setString(1, productName);
+		preparedStatement.setInt(2, productPrice);
+		preparedStatement.setString(3, productCategory);
+		preparedStatement.execute();
+		log.info("Product added Successfully");
+		}
+		catch(ClassNotFoundException | SQLException e){
+			log.error(e);
+			throw new BusinessException("Internal Error");
+		}
+		
+	}
+	//View by customer name
+	public void customersByName(String subName) throws BusinessException{
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="SELECT cust_pwd,cust_email,cust_name from customer where cust_name like ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1, "%"+subName+"%");
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(!resultSet.next()) {log.info("No such users found");
+			
+			}
+			log.info("--------------------------------------------------------------------------");
+			log.info("CustomerPassword        CustomerEmail               CustomerName");
+			log.info("--------------------------------------------------------------------------");
+			while(resultSet.next()) {
+				log.info(resultSet.getString("cust_pwd")+"            "+resultSet.getString("cust_email")+"                  "+resultSet.getString("cust_name"));
+			}
+		}
+		catch(ClassNotFoundException | SQLException e){
+			log.error(e);
+			throw new BusinessException("Internal Error");
+		}
+	}
+	public void customersByMail(String subMail) throws BusinessException{
+		//View by customer mail
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="SELECT cust_pwd,cust_email,cust_name from customer where cust_email like ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setString(1, "%"+subMail+"%");
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(!resultSet.next()) {log.info("No such users found");
+			
+			}
+			log.info("--------------------------------------------------------------------------");
+			log.info("CustomerPassword        CustomerEmail               CustomerName");
+			log.info("--------------------------------------------------------------------------");
+			while(resultSet.next()) {
+				log.info(resultSet.getString("cust_pwd")+"            "+resultSet.getString("cust_email")+"                  "+resultSet.getString("cust_name"));
+			}
+		}
+		catch(ClassNotFoundException | SQLException e){
+			log.error(e);
+			throw new BusinessException("Internal Error");
+		}
+	}
+	public void customersById(int id) throws BusinessException{
+		//View by customerId
+		try(Connection connection=MySqlDbConnection.getConnection()){
+			String sql="SELECT cust_pwd,cust_email,cust_name from customer where cust_id= ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, id);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(!resultSet.next()) {log.info("No such users found");
+			}
+			else {
+			log.info("--------------------------------------------------------------------------");
+			log.info("CustomerPassword        CustomerEmail               CustomerName");
+			log.info("--------------------------------------------------------------------------");
+			if(resultSet!=null) {
+				log.info(resultSet.getString("cust_pwd")+"            "+resultSet.getString("cust_email")+"                  "+resultSet.getString("cust_name"));
+			}
+			while(resultSet.next()) {
+				log.info(resultSet.getString("cust_pwd")+"            "+resultSet.getString("cust_email")+"                  "+resultSet.getString("cust_name"));
+			}
+			}
+		}
+		catch(ClassNotFoundException | SQLException e){
+			log.error(e);
+			throw new BusinessException("Internal Error");
+		}
 		
 	}
 }
-	
-

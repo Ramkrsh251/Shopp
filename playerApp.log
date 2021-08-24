@@ -1,0 +1,1489 @@
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 13:54:08 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:12 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:12 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 13:54:12 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:12 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 13:54:14 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:54:18 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 13:54:21 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order SET order_status = 'Received' WHERE order_cust_id = 1' at line 1
+[main] 2021-08-20 13:54:21 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:54:21 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 13:59:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:20 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 13:59:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:20 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 13:59:22 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:59:26 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 13:59:31 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 13:59:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:55 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 13:59:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 13:59:55 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 13:59:57 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 14:00:01 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 14:00:04 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Order marked as received
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - 3) Show my Cart
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 14:00:04 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:22:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:22:31 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:22:31 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:22:31 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:22:48 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:22:50 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:22:50 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:22:50 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:22:53 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:22:59 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:23:04 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:23:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:23:07 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:23:07 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:23:07 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:23:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:23:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:23:40 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:23:40 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:23:40 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:23:43 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:23:46 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:23:50 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:23:56 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:23:56 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:23:56 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:23:56 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:23:56 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:25:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:25:53 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:25:53 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:25:53 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:25:56 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:26:01 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:26:11 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:26:20 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '4' for key 'customer.PRIMARY'
+[main] 2021-08-20 14:26:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:26:20 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:26:20 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:26:20 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:26:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:26:34 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:26:34 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:26:34 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:27:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:27:37 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:27:37 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:27:37 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:27:46 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:27:51 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:27:57 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:28:06 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-20 14:28:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:28:06 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:28:06 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:28:06 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:28:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:29:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:39:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:28 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:28 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 14:39:28 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:28 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:39:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:39:38 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:39:38 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:39:38 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:39:41 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:39:47 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:39:52 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:40:00 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-20 14:40:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:40:00 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:40:00 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:40:00 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:40:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:42:48 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:42:53 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:42:53 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:42:53 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 14:42:59 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 14:43:05 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 14:43:12 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 14:43:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:43:21 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:43:21 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:43:21 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:43:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 14:59:44 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 14:59:51 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 14:59:51 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 14:59:51 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 15:00:05 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 15:00:12 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 15:00:16 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 15:00:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:00:21 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 15:00:21 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 15:00:21 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 15:00:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:00:30 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 15:00:30 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 15:00:30 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 15:00:48 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 15:00:54 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 15:01:02 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 15:01:14 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:01:14 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 15:01:14 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 15:01:14 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 15:01:14 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 15:02:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:13 INFO  com.app.Main  - User Registration
+[main] 2021-08-20 15:02:13 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-20 15:02:13 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-20 15:02:18 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 15:02:21 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-20 15:02:24 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-20 15:02:29 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-20 15:02:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:29 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 15:02:29 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 15:02:29 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 15:02:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:40 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:40 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 15:02:40 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:40 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 15:02:46 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:02:51 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product id |Product Name|Product price|product Category
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1          Earphones          250          electronics
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 2          ToorDal          100          groceries
+[main] 2021-08-20 15:03:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:03:03 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:03:12 INFO  com.app.Main  - Please select the product ID to choose
+[main] 2021-08-20 15:03:16 INFO  com.app.Main  - please enter the quantity
+[main] 2021-08-20 15:03:18 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product with product id :1 added successfully 
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:03:18 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:03:29 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Ordered
+[main] 2021-08-20 15:03:30 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Your Order value is: 750
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:03:30 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:04:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Order marked as received
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:04:59 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-20 15:07:32 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:36 INFO  com.app.Main  -         User Login           
+[main] 2021-08-20 15:07:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:36 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-20 15:07:38 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:07:41 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-20 15:07:43 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Customer ID | Product Id | Product Quantity |Order Status |Cart Value 
+[main] 2021-08-20 15:07:43 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               2                    2      Confirmed                    200
+[main] 2021-08-20 15:07:43 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               1                    5      Confirmed                    1250
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - Select from below options
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-20 15:07:43 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-21 15:16:46 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:16:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:16:54 INFO  com.app.Main  -         User Login           
+[main] 2021-08-21 15:16:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:16:54 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-21 15:17:04 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:17:06 INFO  com.app.Main  - User Registration
+[main] 2021-08-21 15:17:06 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-21 15:17:06 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-21 15:17:10 INFO  com.app.Main  - Enter password
+[main] 2021-08-21 15:17:18 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-21 15:17:21 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-21 15:17:27 WARN  com.app.Main  - com.app.exception.BusinessException: Invalid password... passwoRd /n1.Password must be of length 8 
+2.First letter must be in uppercase
+3.No special characters are allowed
+[main] 2021-08-21 15:17:27 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:17:27 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-21 15:17:27 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-21 15:17:27 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-21 15:17:27 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:18:14 INFO  com.app.Main  - User Registration
+[main] 2021-08-21 15:18:14 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-21 15:18:14 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-21 15:18:18 INFO  com.app.Main  - Enter password
+[main] 2021-08-21 15:18:27 INFO  com.app.Main  - Enter UserName
+[main] 2021-08-21 15:18:32 INFO  com.app.Main  - Enter emailID
+[main] 2021-08-21 15:18:41 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-21 15:18:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-21 15:18:41 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-21 15:18:41 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-21 15:18:41 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-21 15:18:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-23 10:19:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - Employee login
+[main] 2021-08-23 10:20:07 INFO  com.app.dao.impl.SearchServiceDAOImpl  -  Employee Login Successfull
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-23 10:20:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 16:52:48 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '8' for key 'customer.PRIMARY'
+[main] 2021-08-23 16:54:17 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-23 23:05:16 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '12' for key 'customer.PRIMARY'
+[main] 2021-08-23 23:05:37 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Registered
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-23 23:23:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 23:23:29 INFO  com.app.Main  - User Registration
+[main] 2021-08-23 23:23:29 INFO  com.app.Main  - Please enter: User id,Password,User Name and User email
+[main] 2021-08-23 23:23:29 INFO  com.app.Main  - enter customer ID
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-23 23:23:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - Employee login
+[main] 2021-08-23 23:23:39 INFO  com.app.dao.impl.SearchServiceDAOImpl  -  Employee Login Successfull
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - INSIDE
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-23 23:23:39 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:27:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:27:15 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 00:27:15 INFO  com.app.dao.impl.SearchServiceDAOImpl  -  Employee Login Successfull
+[main] 2021-08-24 00:27:15 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 00:27:15 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 00:27:15 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:27:15 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:28:42 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 00:28:43 INFO  com.app.dao.impl.SearchServiceDAOImpl  -  Employee Login Successfull
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 00:28:43 INFO  com.app.Main  - Enter product name
+[main] 2021-08-24 00:28:54 INFO  com.app.Main  - Enter product price
+[main] 2021-08-24 00:28:56 INFO  com.app.Main  - Enter product category
+[main] 2021-08-24 00:29:02 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product added Successfully
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:29:02 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:30:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 00:30:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  -  Employee Login Successfull
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 00:30:28 INFO  com.app.Main  - Enter product name
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:37:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 00:38:04 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 00:38:09 INFO  com.app.Main  - Enter product name
+[main] 2021-08-24 00:38:14 INFO  com.app.Main  - Enter product price
+[main] 2021-08-24 00:38:16 INFO  com.app.Main  - Enter product category
+[main] 2021-08-24 00:38:21 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product added Successfully
+[main] 2021-08-24 00:38:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:38:21 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:38:21 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:38:21 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:38:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 00:42:13 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 00:42:21 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 00:42:24 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 00:42:24 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 00:42:24 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 00:42:24 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:06:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:06:38 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:06:40 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:06:40 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:06:40 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:06:40 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:06:41 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:06:47 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'R'%' at line 1
+[main] 2021-08-24 01:06:47 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 01:06:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:06:47 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:06:47 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:06:47 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:06:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:07:45 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:07:46 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:07:47 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:07:47 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:07:47 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:07:47 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:08:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:08:56 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:08:57 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:08:57 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:08:57 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:08:57 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:08:58 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:09:05 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwodram@gmail.comRam
+[main] 2021-08-24 01:09:05 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwordRam@gmail.comRam
+[main] 2021-08-24 01:09:05 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:09:05 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:09:05 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:09:05 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:09:05 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:12:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:12:16 WARN  com.app.Main  - Invalid Search Option... Choice should be only number between 1-9 only. Kindly Retry 
+[main] 2021-08-24 01:12:16 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:12:16 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:12:16 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:12:16 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:12:16 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:12:19 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:12:21 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:12:21 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:12:21 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:12:21 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:12:22 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:15:08 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:15:21 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:15:22 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:15:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:15:25 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:15:25 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:15:25 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:15:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:16:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:16:01 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:16:03 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:16:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:07 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:16:07 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:16:07 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:16:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:16:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:16:55 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:16:56 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwodram@gmail.comRam
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passworddeshpanderam@gmail.comRamakrishna
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishnaram@gmail.comRamakrishna
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Passworddeshpande@gmail.comRamakrishna
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Passworddeshpande@gmail.comRamakrishna
+[main] 2021-08-24 01:16:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwordRam@gmail.comRam
+[main] 2021-08-24 01:16:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:16:59 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:16:59 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:16:59 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:16:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:18:14 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:18:22 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:18:24 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:18:24 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:18:24 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:18:24 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:18:25 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail          CustomerName
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod       ram@gmail.com             Ram
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password       deshpanderam@gmail.com             Ramakrishna
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna       ram@gmail.com             Ramakrishna
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password       deshpande@gmail.com             Ramakrishna
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password       deshpande@gmail.com             Ramakrishna
+[main] 2021-08-24 01:18:28 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password       Ram@gmail.com             Ram
+[main] 2021-08-24 01:18:28 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:28 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:18:28 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:18:28 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:18:28 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:18:52 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:18:53 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:18:58 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod            ram@gmail.com                  Ram
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:01 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 01:19:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:01 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:19:01 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:19:01 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:19:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:19:35 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:19:40 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 01:19:46 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 01:19:48 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 01:19:48 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 01:19:48 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 01:19:48 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 01:19:50 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod            ram@gmail.com                  Ram
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 01:19:55 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 01:19:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 01:19:55 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 01:19:55 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 01:19:55 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 01:19:55 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:10:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:10:31 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:10:32 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:10:32 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:10:32 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:10:32 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:10:33 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod            ram@gmail.com                  Ram
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:38 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 09:10:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:38 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:10:38 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:10:38 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:10:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:10:41 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:10:43 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:10:43 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:10:43 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:10:43 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod            ram@gmail.com                  Ram
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:10:50 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:10:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:10:50 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:10:50 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:10:50 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:10:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:11:30 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:11:32 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:11:32 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:11:32 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:11:32 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:11:36 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:11:36 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:11:36 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:11:36 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:11:36 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:11:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:11:36 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:11:36 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:11:36 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:11:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:12:38 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:12:44 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:12:45 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:12:45 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:12:45 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:12:45 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:12:49 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''id'' at line 1
+[main] 2021-08-24 09:12:49 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:12:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:12:49 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:12:49 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:12:49 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:12:49 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:13:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:03 WARN  com.app.Main  - Invalid Search Option... Choice should be only number between 1-9 only. Kindly Retry 
+[main] 2021-08-24 09:13:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:03 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:13:03 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:13:03 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:13:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:13:05 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:13:07 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:13:07 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:13:07 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:13:07 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:13:11 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:13:11 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:13:11 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:13:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:11 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:13:11 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:13:11 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:13:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:13:25 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:13:26 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:13:26 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:13:26 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:13:26 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:13:31 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:13:31 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:13:31 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:13:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:13:31 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:13:31 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:13:31 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:13:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:14:22 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:14:30 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:14:31 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:14:31 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:14:31 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:14:31 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:14:34 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:14:34 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:14:34 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:14:34 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLException: Illegal operation on empty result set.
+[main] 2021-08-24 09:14:34 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:14:34 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:14:34 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:14:34 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:14:34 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:14:34 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:17:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:17:33 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:17:35 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:17:35 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:17:35 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:17:35 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:17:39 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:17:39 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:17:39 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:17:39 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLException: Illegal operation on empty result set.
+[main] 2021-08-24 09:17:39 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:17:39 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:17:39 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:17:39 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:17:39 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:17:39 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:18:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:19:03 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:19:04 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:19:04 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:19:04 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:19:04 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - passwod            ram@gmail.com                  Ram
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:19:10 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:19:10 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:19:10 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:19:10 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:19:10 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:19:10 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:19:14 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:19:15 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:19:15 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:19:15 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:19:15 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:19:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:19:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:19:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:19:20 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLException: Before start of result set
+[main] 2021-08-24 09:19:20 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:19:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:19:20 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:19:20 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:19:20 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:19:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:20:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:20:59 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:21:01 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:21:01 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:21:01 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:21:01 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:21:06 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:21:06 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:21:06 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:21:06 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLException: Before start of result set
+[main] 2021-08-24 09:21:06 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:21:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:21:06 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:21:06 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:21:06 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:21:06 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:21:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:21:54 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:21:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:21:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:21:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:21:57 ERROR com.app.dao.impl.SearchServiceDAOImpl  - java.sql.SQLException: Before start of result set
+[main] 2021-08-24 09:21:57 WARN  com.app.Main  - com.app.exception.BusinessException: Internal Error
+[main] 2021-08-24 09:21:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:21:57 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:21:57 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:21:57 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:21:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:23:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:23:04 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:23:06 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:23:06 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:23:06 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:23:06 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:23:12 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:23:12 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:23:12 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:23:12 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:23:12 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:12 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:23:12 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:23:12 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:23:12 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:23:23 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:23:24 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:23:24 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:23:24 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:23:24 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:23:29 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:23:29 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:23:29 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:23:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:23:29 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:23:29 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:23:29 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:23:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:24:19 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:24:25 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:24:27 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:24:27 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:24:27 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:24:27 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:24:33 INFO  com.app.dao.impl.SearchServiceDAOImpl  - No such users found
+[main] 2021-08-24 09:24:33 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:24:33 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:24:33 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:24:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:33 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:24:33 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:24:33 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:24:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:24:39 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:24:41 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:24:41 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:24:41 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:24:41 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:24:45 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:24:45 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:24:45 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:24:45 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:24:45 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:24:45 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:24:45 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:24:45 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:25:09 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:25:14 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:25:15 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:25:15 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:25:15 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:25:15 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:25:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:25:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:25:20 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:25:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:25:20 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:25:20 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:25:20 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:25:20 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:26:33 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:26:39 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:26:40 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:26:40 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:26:40 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:26:40 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:26:44 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:26:44 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:26:44 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:26:44 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:26:44 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:44 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:26:44 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:26:44 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:26:44 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:26:51 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:26:53 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:26:53 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:26:53 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:26:53 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:26:58 INFO  com.app.dao.impl.SearchServiceDAOImpl  - No such users found
+[main] 2021-08-24 09:26:58 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:26:58 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:26:58 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:26:58 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:26:58 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:27:29 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:27:37 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:27:39 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:27:39 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:27:39 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:27:39 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1234567;            temp@gmail.com                  Name2
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:27:46 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            testcase@gmail.com                  TestName
+[main] 2021-08-24 09:27:46 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:46 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:27:46 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:27:46 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:27:46 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:27:48 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:27:49 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:27:49 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:27:49 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:27:49 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:27:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - No such users found
+[main] 2021-08-24 09:27:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:27:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:27:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:27:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:27:53 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:27:53 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:27:53 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:27:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:28:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - Employee login
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - Employee Login Succcessfull
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - -------------------------------
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - 1) Insert into products
+[main] 2021-08-24 09:28:17 INFO  com.app.Main  - 2) Search customers by Filters:
+[main] 2021-08-24 09:28:18 INFO  com.app.Main  - View Customers by:
+[main] 2021-08-24 09:28:18 INFO  com.app.Main  -                   1) Customer Name
+[main] 2021-08-24 09:28:18 INFO  com.app.Main  -                   2) Customer Mail
+[main] 2021-08-24 09:28:18 INFO  com.app.Main  -                   3) Customer ID
+[main] 2021-08-24 09:28:20 INFO  com.app.Main  - please enter a part of the customer name
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - CustomerPassword        CustomerEmail               CustomerName
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - --------------------------------------------------------------------------
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            deshpanderam@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ramakrishna            ram@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Password            deshpande@gmail.com                  Ramakrishna
+[main] 2021-08-24 09:28:23 INFO  com.app.dao.impl.SearchServiceDAOImpl  - password            Ram@gmail.com                  Ram
+[main] 2021-08-24 09:28:23 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:28:23 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:28:23 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:28:23 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:28:23 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - Hey,Welcome
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - Please choose from below options
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - 1) Login as a User
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - 2) Employee login
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - 3) New User?Register your self
+[main] 2021-08-24 09:35:31 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:34 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:34 INFO  com.app.Main  -         User Login           
+[main] 2021-08-24 09:35:34 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:34 INFO  com.app.Main  - Enter your User-Name
+[main] 2021-08-24 09:35:38 INFO  com.app.Main  - Enter your Password
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:35:41 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:35:47 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Customer ID | Product Id | Product Quantity |Order Status |Cart Value 
+[main] 2021-08-24 09:35:47 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               2                    2      Confirmed                    200
+[main] 2021-08-24 09:35:47 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               1                    5      Confirmed                    1250
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:35:47 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product id |Product Name|Product price|product Category
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1          Earphones          250          electronics
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 2          ToorDal          100          groceries
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 3          Television          85000          electronics
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 4          Speakers          8000          Audio
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 5          Salt          25          Groceries
+[main] 2021-08-24 09:35:59 INFO  com.app.dao.impl.SearchServiceDAOImpl  - ------------------------------------------------------------------------
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:35:59 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:36:08 INFO  com.app.Main  - Please select the product ID to choose
+[main] 2021-08-24 09:36:10 INFO  com.app.Main  - please enter the quantity
+[main] 2021-08-24 09:36:13 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Product with product id :3 added successfully 
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:36:13 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:36:18 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Customer ID | Product Id | Product Quantity |Order Status |Cart Value 
+[main] 2021-08-24 09:36:18 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               2                    2      Confirmed                    200
+[main] 2021-08-24 09:36:18 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               1                    5      Confirmed                    1250
+[main] 2021-08-24 09:36:18 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               3                    2      Yet to confirm                    171250
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:36:18 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:36:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Successfully Ordered
+[main] 2021-08-24 09:36:53 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Your Order value is: 343750
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:36:53 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:36:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Customer ID | Product Id | Product Quantity |Order Status |Cart Value 
+[main] 2021-08-24 09:36:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               2                    2      Confirmed                    200
+[main] 2021-08-24 09:36:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               1                    5      Confirmed                    1250
+[main] 2021-08-24 09:36:57 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               3                    2      Confirmed                    171250
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:36:57 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:37:00 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Order marked as received
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:37:00 INFO  com.app.Main  - 5)Mark my order as received
+[main] 2021-08-24 09:37:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - Customer ID | Product Id | Product Quantity |Order Status |Cart Value 
+[main] 2021-08-24 09:37:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               2                    2      Confirmed                    200
+[main] 2021-08-24 09:37:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               1                    5      Confirmed                    1250
+[main] 2021-08-24 09:37:03 INFO  com.app.dao.impl.SearchServiceDAOImpl  - 1               3                    2      Confirmed                    171250
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - Logged-in as: Ram
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - Select from below options
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - 1)  View the list of products with price.
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - 2) Add a product to the cart
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - 3) View Cart
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - 4) Place Order
+[main] 2021-08-24 09:37:03 INFO  com.app.Main  - 5)Mark my order as received

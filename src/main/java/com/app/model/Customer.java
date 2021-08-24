@@ -5,7 +5,6 @@ public class Customer {
  private  String cust_pwd;
  private String cust_name;
  private String cust_email;
-	
 	private Cart cart;
 	private Order order;
 	private Product product;

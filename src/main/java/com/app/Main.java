@@ -17,13 +17,14 @@ import com.search.service.SearchService;
 public class Main {
 	private static Logger log = Logger.getLogger(Main.class);
 	public static void main(String[] args) {
+		SearchServiceDAO searchServiceDAO=new SearchServiceDAOImpl();
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		log.info("Hey,Welcome");
 		log.info("Please choose from below options");
 		int ch=0;
 		do {
-			log.info("-----------------------------");
+		log.info("-----------------------------");
 		log.info("1) Login as a User");
 		log.info("2) Employee login");
 		log.info("3) New User?Register your self");
@@ -37,7 +38,7 @@ public class Main {
 			log.info("-----------------------------");
 			log.info("        User Login           ");
 			log.info("-----------------------------");
-			SearchServiceDAO searchServiceDAO=new SearchServiceDAOImpl();
+			
 			SearchService search=new SearchServiceImpl();
 			log.info("Enter your User-Name");
 			String userName=sc.nextLine();
@@ -60,7 +61,7 @@ public class Main {
 				log.info("Select from below options");
 				log.info("1)  View the list of products with price."); 
 				log.info("2) Add a product to the cart");
-				log.info("3) Show my Cart");
+				log.info("3) View Cart");
 				log.info("4) Place Order");
 				log.info("5)Mark my order as received");
 				 userChoice=Integer.parseInt(sc.nextLine());
@@ -132,7 +133,82 @@ public class Main {
 			}
 			break;
 		case 2:
+			int employeeChoice=0;
+			int flag=0;
 			log.info("Employee login");
+			try {
+				
+				flag=searchServiceDAO.employeeLogin();
+				}
+				catch(BusinessException e){
+					log.warn(e);
+				}
+				if(flag==1) {
+						log.info("Employee Login Succcessfull");
+						log.info("-------------------------------");
+						log.info("Please choose from below options");
+						log.info("1) Insert into products");
+						log.info("2) Search customers by Filters:");
+						employeeChoice=Integer.parseInt(sc.nextLine());
+						switch(employeeChoice) {
+							case 1:
+								try {
+							log.info("Enter product name");
+							String productName=sc.nextLine();
+							log.info("Enter product price");
+							int productPrice=Integer.parseInt(sc.nextLine());
+							log.info("Enter product category");
+							String productCategory=sc.nextLine();
+							searchServiceDAO.intoProducts(productName,productPrice,productCategory);
+							}
+							catch(BusinessException e){
+								log.warn(e);
+							}
+								break;
+							case 2:
+								log.info("View Customers by:");
+								log.info("                  1) Customer Name");
+								log.info("                  2) Customer Mail");
+								log.info("                  3) Customer ID");
+								int empChoice=Integer.parseInt(sc.nextLine());
+								switch(empChoice) {
+								case 1:
+									try {
+										log.info("please enter a part of the customer name");
+										String subName=sc.nextLine();
+										searchServiceDAO.customersByName(subName);
+										}
+										catch(BusinessException e){
+											log.warn(e);
+										}
+									break;
+								case 2:
+									try {
+										String subMail=sc.nextLine();
+										searchServiceDAO.customersByMail(subMail);
+										}
+										catch(BusinessException e){
+											log.warn(e);
+										}
+									break;
+								case 3:
+									try {
+										int userId=Integer.parseInt(sc.nextLine());
+										searchServiceDAO.customersById(userId);
+										}
+										catch(BusinessException e){
+											log.warn(e);
+										}
+									break;
+								default:
+									break;
+								}
+							break;
+							default:
+								log.info("please Enter Valid Choice");
+				}
+		}
+		
 			break;
 		case 3:
 			SearchService searchService=new SearchServiceImpl();

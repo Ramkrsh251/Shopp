@@ -11,4 +11,9 @@ public interface SearchServiceDAO {
 	public void viewCart()throws BusinessException;
 	public void confirmOrder()throws BusinessException;
 	public void markOrder() throws BusinessException;
-	}
+	public int employeeLogin() throws BusinessException;
+	public void intoProducts(String productName, int productPrice,String productCategory) throws BusinessException;
+	public void customersByName(String subName) throws BusinessException;
+	public void customersByMail(String subMail) throws BusinessException;
+	public void customersById(int id) throws BusinessException;
+}
